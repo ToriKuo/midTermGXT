@@ -4,12 +4,9 @@ var weights = [0,2, 2, 2, 2, 2];
 
 var myScale = 3;
 
-// number of drawing agents 
 var nAgents = 80;
 
 let agent = [];
-
-// set spinning direction (plus or minus)
 
 var direction = -1;
 
@@ -131,9 +128,6 @@ class Agent {
 
 }
 
-// vector field function 
-// the painting agents follow the flow defined 
-// by this function 
 
 
 function vector_field(x, y,myScale) {
